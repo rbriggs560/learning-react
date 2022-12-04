@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/rbriggs560/learning-react/static/css/main.1b40669a.css",
+    "main.js": "/rbriggs560/learning-react/static/js/main.caf6a4dd.js",
+    "static/js/787.0fa526db.chunk.js": "/rbriggs560/learning-react/static/js/787.0fa526db.chunk.js",
+    "static/media/neymar-image-main.jpeg": "/rbriggs560/learning-react/static/media/neymar-image-main.da76ac7f1c6fb2eba4a0.jpeg",
+    "static/media/cristiano-image.jpeg": "/rbriggs560/learning-react/static/media/cristiano-image.ac2acface44d5badac82.jpeg",
+    "static/media/profile.JPG": "/rbriggs560/learning-react/static/media/profile.f1997916e9197758631f.JPG",
+    "static/media/messi-image.jpeg": "/rbriggs560/learning-react/static/media/messi-image.1c434105f261f463ccab.jpeg",
+    "static/media/sala-image.jpeg": "/rbriggs560/learning-react/static/media/sala-image.03468dfb33cf38b505fb.jpeg",
+    "index.html": "/rbriggs560/learning-react/index.html",
+    "main.1b40669a.css.map": "/rbriggs560/learning-react/static/css/main.1b40669a.css.map",
+    "main.caf6a4dd.js.map": "/rbriggs560/learning-react/static/js/main.caf6a4dd.js.map",
+    "787.0fa526db.chunk.js.map": "/rbriggs560/learning-react/static/js/787.0fa526db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b40669a.css",
+    "static/js/main.caf6a4dd.js"
+  ]
+}
