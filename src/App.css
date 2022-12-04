@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+body{
+  background-color:  #e07ba2;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#root{
+  margin: 4em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+ .App{
+  margin: 0 auto;
+  padding:1em;
+  width: 475px;
+  background-color:  white;
+  border-radius: 10px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.image{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.birthday-reminder-title{
+  margin-left: 1em;
+}
+
+
+.content-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  padding: 1em;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-content: stretch;
+}
+
+.delete-button{
+  background-color: #f28ab2;
+  font-size:16px;
+  padding: 1em;
+  width: 100%;
+  border:none;
+  border-radius: 5px;
   color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.delete-button:hover{
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.user-info{
+  margin-left: 2em;
+}
+
+.birthday, .name{
+  margin: 0;
+
+}
+
+.birthday{
+  padding-top: 5px;
 }

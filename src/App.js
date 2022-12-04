@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import BirthdayCard from './component/BirthdayCard';
+import data from "./birthday_data";
+import { useState } from 'react';
+
 
 function App() {
+  const [birthdays, setBirthdays] = useState(data);
+  
+  const deleteAllBirthdayReminder = () =>{
+    setBirthdays([]);
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className = "birthday-reminder-title"> <span id = "number-of-birthday">{birthdays.length}</span> Birthdays Today</h1>
+      { birthdays.map((item) =>{
+        let name = item.name;
+        return (
+          <BirthdayCard key = {item.id} description = {name} name ={name} birthday = {item.age} image = {item.image} > 
+          </BirthdayCard>
+        )
+      })}
+      <button  onClick={deleteAllBirthdayReminder} className = "delete-button"> Clear All</button>
     </div>
   );
 }
